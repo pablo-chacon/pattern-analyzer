@@ -593,7 +593,7 @@ Apply the full systemic pattern analysis methodology. Structure your response in
         }}>
           Open source. No backend. No data collection. Your API key never leaves your browser.
           <br />
-          Source and methodology: github.com/[your-username]/democratic-erosion-detector
+          Source and methodology: github.com/pablo-chacon/pattern-analyzer
         </div>
 
       </div>

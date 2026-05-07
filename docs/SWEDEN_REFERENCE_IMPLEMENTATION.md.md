@@ -600,3 +600,12 @@ This is a probability assessment, not a prediction. The outcome is not structura
 - Prop. 2025/26:218 — Dubbla straff för brott i kriminella nätverk och skärpta straffskalor
 - Skr. 2023/24:42 — Riksrevisionens rapport om förändrade inkomstskatteregler 2011–2023
 - Skr. 2024/25:120 — Riksrevisionens rapport om tillämpningen av det finanspolitiska ramverket 2024
+
+---
+
+## Methodology & Tool
+
+The analytical framework used in this report is open source and reusable on any country or institution.
+
+- **Tool:** https://pattern-analyzer-delta.vercel.app  
+- **Source:** https://github.com/pablo-chacon/pattern-analyzer
