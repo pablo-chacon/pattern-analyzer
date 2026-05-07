@@ -4,6 +4,8 @@ Systemic institutional pattern analysis tool. Determines whether documented even
 
 Built on the methodology developed for the Sweden OSINT Report 2026. Reusable on any country or institution.
 
+---
+
 ## What It Does
 
 Users paste verified source material — official statistics, news reporting, government documents — and the tool applies a structured analytical framework to identify cross-sectoral patterns, gaps between official narrative and primary data, and institutional response patterns.
@@ -11,7 +13,15 @@ Users paste verified source material — official statistics, news reporting, go
 Output is always structured in three explicit layers:
 - **Layer 1** — Documented facts (sourced only)
 - **Layer 2** — Observed patterns across those facts
-- **Layer 3** — Probability assessment (clearly labeled as such)
+- **Layer 3** — Probability assessment
+
+## Documentation
+
+- [Methodology & System Prompt](src/App.jsx) full analytical framework
+- [Reference Implementation — Sweden 2019–2026](docs/SWEDEN_REFERENCE_IMPLEMENTATION.md) — 
+  first application of this framework to a real dataset, covering 
+  Swedish institutional patterns across a full mandate period
+
 
 ---
 
