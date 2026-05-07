@@ -13,6 +13,8 @@ Output is always structured in three explicit layers:
 - **Layer 2** — Observed patterns across those facts
 - **Layer 3** — Probability assessment (clearly labeled as such)
 
+---
+
 ## How to Use
 
 1. Get a free Anthropic API key at [console.anthropic.com](https://console.anthropic.com)
@@ -39,6 +41,25 @@ Each analysis costs approximately $0.01–0.05 depending on source volume.
 ## Privacy & Architecture
 
 This tool has **no backend**. It is a static React application that calls the Anthropic API directly from your browser. No data is collected, stored, or transmitted anywhere except from your browser to Anthropic's API using your own key.
+
+---
+
+## Start Analysis:
+- Go to: [Pattern-Analizer App](https://pattern-analyzer-delta.vercel.app/)
+- Input Antrophic API-KEY.
+- Choose area of interest.
+- Input data to analyze.
+- Run Pattern Analysis
+- Read results
+
+## Disclaimer
+
+- Analysis is generated from the source material provided. 
+- All factual claims derive from that material.
+- Pattern assessments and probability estimates are analytical outputs, not documented facts.
+- Independent verification of all sources is recommended before any use of this analysis.
+
+---
 
 ## Local Development
 
@@ -67,6 +88,8 @@ Every push to main deploys automatically.
 6. Publish directory: `dist`
 7. Click Deploy
 
+---
+
 ## Methodology
 
 The analytical framework encodes the following principles:
@@ -82,6 +105,8 @@ The analytical framework encodes the following principles:
 **Statistical decomposition** — Aggregate statistics are always broken into subcategories before conclusions. Aggregate trends frequently conceal contradictory subcategory movements.
 
 **Three-layer output** — Facts, patterns, and probability assessments are always distinct and explicitly labeled.
+
+---
 
 ## Background
 
