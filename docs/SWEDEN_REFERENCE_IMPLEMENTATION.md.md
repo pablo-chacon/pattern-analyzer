@@ -2,10 +2,10 @@
 
 
 ### A Multi-Disciplinary OSINT Study on Governance, Integrity, and Civil Rights
-**Status:** Final 
+**Status:** Final May 2026
 **Original compilation:** Summer 2025  
 **Updated:** May 2026  
-**Author:** Anonymous  
+**Author:** pablo-chacon 
 
 ---
 
@@ -391,9 +391,6 @@ Second breach within two consecutive days. Source: DN ibid.
 
 **Breach 3 — April 29, 2026:**
 During a vote on tightened citizenship requirements, two former SD members who had left the party (Elsa Widding and Katja Nyberg) voted with the opposition, threatening to defeat the proposal. SD called in Charlotte Quensel and Michael Rubbestad, who were "kvittad ut" under the convention and obligated to abstain. They voted with the government bloc. The proposal passed 147–146. SD's group leader Linda Lindberg confirmed the breach publicly and refused to apologize. This was the third breach in fifteen days.
-
-**Breaches 2 and 3 — April 16 and April 29, 2026:**
-SD breached the kvittning convention on two further occasions: April 16 and April 29, 2026. Source: DN, "Ilska kring SDs upprepade avsteg från kvittningen" (April 30, 2026). Vänsterpartiet formally demanded that the two affected votes be re-run at the talman crisis meeting — this demand was not met. Source: SVT Nyheter valet 2026 live report.
 
 ### 8.3 Consequences
 
