@@ -55,7 +55,7 @@ This tool has **no backend**. It is a static React application that calls the An
 ---
 
 ## Start Analysis:
-- Go to: [Pattern-Analizer App](https://pattern-analyzer-delta.vercel.app/)
+- Go to: [Pattern-Analyzer App](https://pattern-analyzer-delta.vercel.app/)
 - Input Antrophic API-KEY.
 - Choose area of interest.
 - Input data to analyze.
@@ -123,6 +123,14 @@ The analytical framework encodes the following principles:
 This tool was developed from the analytical methodology used in the Sweden: A Democracy Under Systemic Stress report (2025–2026), which applied this framework to Swedish institutional data between 2019 and 2026.
 
 The tool is designed to be country-agnostic and reusable by researchers, journalists, and analysts working on institutional integrity in any democratic context.
+
+---
+
+## Contributing
+
+If you apply this framework to another country or institution and want to add it as a reference implementation, open a pull request with your dataset in the `docs/` directory.
+
+---
 
 ## License
 
