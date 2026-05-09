@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "Sweden — Democratic Erosion 2019–2026",
+    "country": "Sweden",
+    "period": "2019–2026",
+    "methodology": "Democratic Erosion Detector v1.0",
+    "author": "Emil Chacon",
+    "license": "MIT",
+    "description": "Full systemic pattern analysis of Swedish democratic erosion across eight documented patterns. Includes correlation map and timeline reinforcement data. Sources: BRÅ, Tullverket, Polismyndigheten, Lagrådet, Finanspolitiska rådet, Riksrevisionen, SVT, DN, Expressen, Aftonbladet."
+  },
+  "type": "full",
+  "data": {
+    "correlation": {
+      "nodes": [
+        {
+          "id": "political_architecture",
+          "label": "Political\nArchitecture",
+          "sublabel": "January + Tidö agreements\nbypass electoral mandates",
+          "x": 50, "y": 6,
+          "accent": "#e63946"
+        },
+        {
+          "id": "kvittning",
+          "label": "Parliamentary\nMechanics",
+          "sublabel": "Kvittning breached 3×\nin one session",
+          "x": 80, "y": 20,
+          "accent": "#e63946"
+        },
+        {
+          "id": "mandate_arithmetic",
+          "label": "Mandate\nArithmetic",
+          "sublabel": "M→SD transitions\n+ SD independent history",
+          "x": 94, "y": 42,
+          "accent": "#e63946"
+        },
+        {
+          "id": "engineered_event",
+          "label": "Engineered\nEvent",
+          "sublabel": "Paludan/Quran burning\nSD-adjacent planning",
+          "x": 80, "y": 64,
+          "accent": "#e63946"
+        },
+        {
+          "id": "oversight_bypass",
+          "label": "Oversight\nBypass",
+          "sublabel": "5 expert bodies dismissed\nLagrådet × 5",
+          "x": 50, "y": 78,
+          "accent": "#f4a261"
+        },
+        {
+          "id": "institutional_penetration",
+          "label": "Institutional\nPenetration",
+          "sublabel": "22 verified cases\nacross all sectors",
+          "x": 20, "y": 64,
+          "accent": "#f4a261"
+        },
+        {
+          "id": "criminal_democracy",
+          "label": "Criminal Network\nin Democracy",
+          "sublabel": "313 elected reps\n73 still active",
+          "x": 6, "y": 42,
+          "accent": "#f4a261"
+        },
+        {
+          "id": "surveillance",
+          "label": "Surveillance\nInfrastructure",
+          "sublabel": "9 measures — see\nSurveillance dataset",
+          "x": 20, "y": 20,
+          "accent": "#f4a261"
+        },
+        {
+          "id": "statistical_misdirection",
+          "label": "Statistical\nMisdirection",
+          "sublabel": "Narrative ≠ BRÅ +\nTullverket + Polisen",
+          "x": 50, "y": 42,
+          "accent": "#90e0ef"
+        },
+        {
+          "id": "selective_law",
+          "label": "Selective\nRule of Law",
+          "sublabel": "Elite impunity\ndocumented across tiers",
+          "x": 50, "y": 94,
+          "accent": "#90e0ef"
+        },
+        {
+          "id": "participation_pressure",
+          "label": "Participation\nUnder Pressure",
+          "sublabel": "65% riksdag threatened\n47% self-censor",
+          "x": 28, "y": 86,
+          "accent": "#90e0ef"
+        },
+        {
+          "id": "tax_redistribution",
+          "label": "Tax\nRedistribution",
+          "sublabel": "Top 1/5 receive >50%\nof reductions",
+          "x": 72, "y": 86,
+          "accent": "#90e0ef"
+        },
+        {
+          "id": "happiness_paradox",
+          "label": "Happiness\nParadox",
+          "sublabel": "#4 happiest +\n#5 antidepressant use",
+          "x": 94, "y": 64,
+          "accent": "#90e0ef"
+        }
+      ],
+      "edges": [
+        { "from": "political_architecture", "to": "kvittning",              "label": "enables" },
+        { "from": "political_architecture", "to": "oversight_bypass",       "label": "drives" },
+        { "from": "political_architecture", "to": "surveillance",           "label": "expands" },
+        { "from": "kvittning",              "to": "mandate_arithmetic",     "label": "requires" },
+        { "from": "mandate_arithmetic",     "to": "kvittning",              "label": "triggers" },
+        { "from": "engineered_event",       "to": "political_architecture", "label": "reinforces" },
+        { "from": "oversight_bypass",       "to": "statistical_misdirection","label": "permits" },
+        { "from": "oversight_bypass",       "to": "selective_law",          "label": "enables" },
+        { "from": "institutional_penetration","to": "selective_law",        "label": "produces" },
+        { "from": "institutional_penetration","to": "criminal_democracy",   "label": "extends to" },
+        { "from": "criminal_democracy",     "to": "selective_law",          "label": "deepens" },
+        { "from": "criminal_democracy",     "to": "participation_pressure", "label": "contributes to" },
+        { "from": "surveillance",           "to": "institutional_penetration","label": "coexists with" },
+        { "from": "statistical_misdirection","to": "political_architecture","label": "legitimizes" },
+        { "from": "statistical_misdirection","to": "oversight_bypass",      "label": "justifies" },
+        { "from": "selective_law",          "to": "tax_redistribution",     "label": "protects" },
+        { "from": "selective_law",          "to": "participation_pressure", "label": "produces" },
+        { "from": "participation_pressure", "to": "political_architecture", "label": "weakens check on" },
+        { "from": "tax_redistribution",    "to": "happiness_paradox",      "label": "contributes to" },
+        { "from": "surveillance",           "to": "happiness_paradox",      "label": "contradicts" },
+        { "from": "participation_pressure", "to": "happiness_paradox",      "label": "contradicts" },
+        { "from": "engineered_event",       "to": "oversight_bypass",       "label": "accelerated" }
+      ]
+    },
+    "timeline": {
+      "patterns": [
+        { "id": "p1", "label": "Political Architecture", "short": "Architecture", "color": "#e63946" },
+        { "id": "p2", "label": "Statistical Misdirection", "short": "Misdirection", "color": "#90e0ef" },
+        { "id": "p3", "label": "Oversight Bypass", "short": "Oversight", "color": "#f4a261" },
+        { "id": "p4", "label": "Institutional Penetration", "short": "Penetration", "color": "#f4a261" },
+        { "id": "p5", "label": "Surveillance & Control", "short": "Surveillance", "color": "#f4a261" },
+        { "id": "p6", "label": "Selective Rule of Law", "short": "Rule of Law", "color": "#90e0ef" },
+        { "id": "p7", "label": "Criminal Network in Democracy", "short": "Crim. Network", "color": "#f4a261" },
+        { "id": "p8", "label": "Participation Under Pressure", "short": "Participation", "color": "#90e0ef" }
+      ],
+      "phases": [
+        { "id": "ph1", "label": "Foundation",    "year": "2019",    "x": 80  },
+        { "id": "ph2", "label": "Expansion",     "year": "2020–21", "x": 220 },
+        { "id": "ph3", "label": "Acceleration",  "year": "2022–23", "x": 380 },
+        { "id": "ph4", "label": "Consolidation", "year": "2024–25", "x": 560 },
+        { "id": "ph5", "label": "Lock-in",       "year": "2026",    "x": 720 }
+      ],
+      "events": [
+        {
+          "id": "e1", "phase": "ph1", "y": 0.15, "patternId": "p1",
+          "label": "January Agreement", "year": "2019",
+          "detail": "Electoral mandate severed from governance content for first time in modern era"
+        },
+        {
+          "id": "e2", "phase": "ph2", "y": 0.28, "patternId": "p5",
+          "label": "Datasparningslag expanded", "year": "2020",
+          "detail": "Metadata retention extended; BankID dependency normalized as civic infrastructure"
+        },
+        {
+          "id": "e3", "phase": "ph2", "y": 0.55, "patternId": "p4",
+          "label": "Swedbank / Securitas exposed", "year": "2020–21",
+          "detail": "First documented cross-sector institutional penetration cases"
+        },
+        {
+          "id": "e4", "phase": "ph3", "y": 0.12, "patternId": "p1",
+          "label": "Tidö Agreement", "year": "2022",
+          "detail": "Second mandate architecture installed; SD policy influence formalized outside government"
+        },
+        {
+          "id": "e5", "phase": "ph3", "y": 0.35, "patternId": "p7",
+          "label": "64 MC-linked candidates elected", "year": "2022",
+          "detail": "Acta Publica / Expressen: criminal MC network candidates enter municipal assemblies"
+        },
+        {
+          "id": "e6", "phase": "ph3", "y": 0.58, "patternId": "p2",
+          "label": "Engineered Quran burning", "year": "Jan 2023",
+          "detail": "SD-adjacent media actors orchestrate geopolitical trigger; emergency narrative frame established"
+        },
+        {
+          "id": "e7", "phase": "ph3", "y": 0.78, "patternId": "p3",
+          "label": "Lagrådet overrides begin", "year": "2023",
+          "detail": "Anonymous witnesses (1), permanent data extraction (2), wiretapping without suspicion (3)"
+        },
+        {
+          "id": "e8", "phase": "ph4", "y": 0.08, "patternId": "p6",
+          "label": "Riksdag cocaine traces", "year": "Jan 2024",
+          "detail": "4 of 7 party offices test positive; institutional response: awareness training for managers"
+        },
+        {
+          "id": "e9", "phase": "ph4", "y": 0.28, "patternId": "p4",
+          "label": "SD troll factory documented", "year": "2024",
+          "detail": "Kalla Fakta: staff operated anonymous accounts to manipulate public debate. No consequences."
+        },
+        {
+          "id": "e10", "phase": "ph4", "y": 0.48, "patternId": "p2",
+          "label": "Crime statistics manipulation", "year": "2024–25",
+          "detail": "Total crime falls driven by property/graffiti; personal crime rises. Narcotics paradox: −5,155 offenses + record seizures."
+        },
+        {
+          "id": "e11", "phase": "ph4", "y": 0.68, "patternId": "p8",
+          "label": "PTU: 25% of officials threatened", "year": "2024",
+          "detail": "65% of riksdag members subjected. 47% self-censor. 1 in 4 considers leaving mandate."
+        },
+        {
+          "id": "e12", "phase": "ph4", "y": 0.88, "patternId": "p7",
+          "label": "Linda Staaf / Operation Candy", "year": "2025–26",
+          "detail": "NOA chief's family in international narcotics operation. Managed quietly; no public disclosure."
+        },
+        {
+          "id": "e13", "phase": "ph5", "y": 0.15, "patternId": "p7",
+          "label": "313 elected reps gang-linked", "year": "May 2026",
+          "detail": "Police-SCB cross-reference: 313 elected officials connected to criminal networks; 73 currently active."
+        },
+        {
+          "id": "e14", "phase": "ph5", "y": 0.38, "patternId": "p1",
+          "label": "Kvittning breached 3×", "year": "Apr 2026",
+          "detail": "April 15, 16, 29: SD breaks century-old parliamentary convention to force legislative outcomes."
+        },
+        {
+          "id": "e15", "phase": "ph5", "y": 0.60, "patternId": "p3",
+          "label": "Lagrådet override #5", "year": "2026",
+          "detail": "Dubbla gängstraff: 'hastverk', largest criminal reform in 60 years. No evidence base for effectiveness."
+        },
+        {
+          "id": "e16", "phase": "ph5", "y": 0.80, "patternId": "p2",
+          "label": "Finanspolitiska rådet: worst criticism ever", "year": "Feb 2026",
+          "detail": "Largest deficit in 30 years. Forecasts more optimistic than all independent assessors. No explanation provided."
+        }
+      ],
+      "reinforcements": [
+        { "from": "e1",  "to": "e4",  "label": "extends" },
+        { "from": "e4",  "to": "e6",  "label": "frames" },
+        { "from": "e6",  "to": "e7",  "label": "accelerates" },
+        { "from": "e6",  "to": "e10", "label": "manufactures" },
+        { "from": "e7",  "to": "e15", "label": "escalates" },
+        { "from": "e10", "to": "e15", "label": "justifies" },
+        { "from": "e10", "to": "e16", "label": "mirrors" },
+        { "from": "e3",  "to": "e9",  "label": "deepens" },
+        { "from": "e9",  "to": "e12", "label": "continues" },
+        { "from": "e5",  "to": "e13", "label": "scales" },
+        { "from": "e11", "to": "e14", "label": "enables" },
+        { "from": "e4",  "to": "e14", "label": "produces" },
+        { "from": "e12", "to": "e13", "label": "exemplifies" }
+      ]
+    }
+  }
+}

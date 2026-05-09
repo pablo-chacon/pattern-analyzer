@@ -1,0 +1,61 @@
+{
+  "_comment": "Democratic Erosion Detector — Full Dataset Template. This template covers correlation map + timeline. Use type 'correlation' or 'timeline' for single diagrams, or 'full' for both. Nodes: x/y are percentage positions 0-100. accent is the node color. Edges: from/to reference node ids. Events: phase references a phase id, y is vertical position 0-1 within the chart, patternId references a pattern.",
+  "meta": {
+    "title": "YOUR COUNTRY — Democratic Erosion YEAR–YEAR",
+    "country": "YOUR COUNTRY",
+    "period": "START–END",
+    "methodology": "Democratic Erosion Detector v1.0",
+    "author": "YOUR NAME",
+    "license": "MIT"
+  },
+  "type": "full",
+  "data": {
+    "correlation": {
+      "nodes": [
+        {
+          "id": "pattern_1",
+          "label": "Pattern\nName",
+          "sublabel": "Short description\nof documented finding",
+          "x": 50, "y": 10,
+          "accent": "#e63946"
+        },
+        {
+          "id": "pattern_2",
+          "label": "Pattern\nName",
+          "sublabel": "Short description\nof documented finding",
+          "x": 80, "y": 40,
+          "accent": "#f4a261"
+        }
+      ],
+      "edges": [
+        { "from": "pattern_1", "to": "pattern_2", "label": "enables" }
+      ]
+    },
+    "timeline": {
+      "patterns": [
+        { "id": "p1", "label": "Pattern One", "short": "Pattern 1", "color": "#e63946" },
+        { "id": "p2", "label": "Pattern Two", "short": "Pattern 2", "color": "#f4a261" }
+      ],
+      "phases": [
+        { "id": "ph1", "label": "Phase One", "year": "YEAR", "x": 100 },
+        { "id": "ph2", "label": "Phase Two", "year": "YEAR", "x": 300 },
+        { "id": "ph3", "label": "Phase Three", "year": "YEAR", "x": 500 }
+      ],
+      "events": [
+        {
+          "id": "e1", "phase": "ph1", "y": 0.3, "patternId": "p1",
+          "label": "Event name", "year": "YEAR",
+          "detail": "Sourced description of what happened and why it is analytically significant"
+        },
+        {
+          "id": "e2", "phase": "ph2", "y": 0.6, "patternId": "p2",
+          "label": "Event name", "year": "YEAR",
+          "detail": "Sourced description of what happened and why it is analytically significant"
+        }
+      ],
+      "reinforcements": [
+        { "from": "e1", "to": "e2", "label": "enables" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_comment": "Democratic Erosion Detector — Surveillance Architecture Template. Fill in your own measures. Each measure should have a documented official framing and a sourced actual effect. weight: 1=minor, 2=moderate, 3=significant. lagrådet: true if introduced over constitutional review objections (or equivalent in your country).",
+  "meta": {
+    "title": "YOUR COUNTRY — Surveillance Architecture",
+    "country": "YOUR COUNTRY",
+    "period": "START–END",
+    "methodology": "Democratic Erosion Detector v1.0",
+    "author": "YOUR NAME",
+    "license": "MIT"
+  },
+  "type": "surveillance",
+  "data": {
+    "categories": [
+      { "id": "communications", "label": "Communications", "color": "#e63946", "icon": "📡" },
+      { "id": "identity",       "label": "Identity",       "color": "#c8a96e", "icon": "🪪" },
+      { "id": "financial",      "label": "Financial",      "color": "#f4a261", "icon": "💳" },
+      { "id": "physical",       "label": "Physical Space", "color": "#a8dadc", "icon": "🏠" },
+      { "id": "surveillance",   "label": "Active Surveillance", "color": "#90e0ef", "icon": "👁" },
+      { "id": "device",         "label": "Device Access",  "color": "#b5838d", "icon": "📱" }
+    ],
+    "dimensions": [
+      { "id": "communications", "label": "Communications monitored" },
+      { "id": "identity",       "label": "Identity state-controlled" },
+      { "id": "financial",      "label": "Financial transactions traceable" },
+      { "id": "physical",       "label": "Physical space accessible" },
+      { "id": "device",         "label": "Device content accessible" },
+      { "id": "surveillance",   "label": "Predictive surveillance active" }
+    ],
+    "measures": [
+      {
+        "id": "measure_1",
+        "name": "Name of measure",
+        "year": "YEAR",
+        "framing": "Official justification given at time of introduction",
+        "reality": "Documented actual effect on residents — sourced",
+        "category": "communications",
+        "weight": 2,
+        "source": "Named law, proposition, or official report",
+        "lagrådet": false
+      },
+      {
+        "id": "measure_2",
+        "name": "Name of measure",
+        "year": "YEAR",
+        "framing": "Official justification given at time of introduction",
+        "reality": "Documented actual effect on residents — sourced",
+        "category": "identity",
+        "weight": 3,
+        "source": "Named law, proposition, or official report",
+        "lagrådet": true
+      }
+    ]
+  }
+}

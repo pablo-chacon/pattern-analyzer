@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Sweden — Surveillance & Control Architecture",
+    "country": "Sweden",
+    "period": "2012–2026",
+    "methodology": "Democratic Erosion Detector v1.0",
+    "author": "Emil Chacon",
+    "license": "MIT",
+    "description": "Nine documented surveillance and control measures introduced between 2012 and 2026. Each measure is presented with its official framing and documented aggregate effect. Sources: Swedish state agencies, official propositions, and Lagrådet opinions."
+  },
+  "type": "surveillance",
+  "data": {
+    "categories": [
+      { "id": "communications", "label": "Communications", "color": "#e63946", "icon": "📡" },
+      { "id": "identity",       "label": "Identity",       "color": "#c8a96e", "icon": "🪪" },
+      { "id": "financial",      "label": "Financial",      "color": "#f4a261", "icon": "💳" },
+      { "id": "physical",       "label": "Physical Space", "color": "#a8dadc", "icon": "🏠" },
+      { "id": "surveillance",   "label": "Active Surveillance", "color": "#90e0ef", "icon": "👁" },
+      { "id": "device",         "label": "Device Access",  "color": "#b5838d", "icon": "📱" }
+    ],
+    "dimensions": [
+      { "id": "communications", "label": "Communications monitored" },
+      { "id": "identity",       "label": "Identity state-controlled" },
+      { "id": "financial",      "label": "Financial transactions traceable" },
+      { "id": "physical",       "label": "Physical space accessible" },
+      { "id": "device",         "label": "Device content accessible" },
+      { "id": "surveillance",   "label": "Predictive surveillance active" }
+    ],
+    "measures": [
+      {
+        "id": "datasparning",
+        "name": "Datasparningslag",
+        "year": "2012+",
+        "framing": "Telecom regulation for crime investigation",
+        "reality": "All internet and telecom metadata retained on all residents. No suspicion required.",
+        "category": "communications",
+        "weight": 3,
+        "source": "Datasparningsdirektivet / Swedish national implementation",
+        "lagrådet": false
+      },
+      {
+        "id": "bankid",
+        "name": "BankID Dependency",
+        "year": "2010s",
+        "framing": "Private sector digital convenience",
+        "reality": "Access to healthcare, banking, tax, schools requires BankID. Loss = civic exclusion.",
+        "category": "identity",
+        "weight": 3,
+        "source": "De facto infrastructure — no single law",
+        "lagrådet": false
+      },
+      {
+        "id": "cashless",
+        "name": "Cashless Infrastructure",
+        "year": "2010s–now",
+        "framing": "Modernization and efficiency",
+        "reality": "All transactions traceable. Anonymous economic participation no longer possible.",
+        "category": "financial",
+        "weight": 3,
+        "source": "Policy direction + merchant/bank practices",
+        "lagrådet": false
+      },
+      {
+        "id": "sim",
+        "name": "SIM Card Registration",
+        "year": "2020",
+        "framing": "Preventing anonymous crime",
+        "reality": "Anonymous phone use prohibited by law. All devices tied to registered identity.",
+        "category": "communications",
+        "weight": 2,
+        "source": "Lag (2022:482) om elektronisk kommunikation",
+        "lagrådet": false
+      },
+      {
+        "id": "warrantless",
+        "name": "Warrantless Drug Searches",
+        "year": "2023",
+        "framing": "Targeted drug enforcement",
+        "reality": "Police may enter homes without warrant on suspicion of drug presence.",
+        "category": "physical",
+        "weight": 2,
+        "source": "Prop. 2022/23:53",
+        "lagrådet": true
+      },
+      {
+        "id": "preventiv_2023",
+        "name": "Preventiva Tvångsmedel (Expanded)",
+        "year": "Oct 2023",
+        "framing": "Preventing serious crime before it occurs",
+        "reality": "Secret surveillance without prior suspicion. 106 court permits issued Q4 2023 alone. All prosecutor offices now authorized.",
+        "category": "surveillance",
+        "weight": 3,
+        "source": "Åklagarmyndigheten RAV 2022:25 / Annual report 2024",
+        "lagrådet": true
+      },
+      {
+        "id": "dataavlasning",
+        "name": "Hemlig Dataavläsning (Permanent)",
+        "year": "Apr 2025",
+        "framing": "Crime fighting tool",
+        "reality": "State-authorized spyware on citizen devices. No time limitation from April 1, 2025.",
+        "category": "device",
+        "weight": 3,
+        "source": "Prop. 2024/25:51 — Lagrådet override #3",
+        "lagrådet": true
+      },
+      {
+        "id": "barn",
+        "name": "Surveillance of Children Under 15",
+        "year": "Oct 2025",
+        "framing": "Protecting children from gang recruitment",
+        "reality": "Secret wiretapping of persons below criminal liability age. Government exceeded its own investigation's recommendations. Nine months faster than proposed.",
+        "category": "surveillance",
+        "weight": 3,
+        "source": "Prop. 2024/25:175 — Lagrådet override #5",
+        "lagrådet": true
+      },
+      {
+        "id": "sverige_id",
+        "name": "Sverige-id (State e-ID)",
+        "year": "Dec 2026",
+        "framing": "EU compliance, digital inclusion",
+        "reality": "National digital identity infrastructure developed and issued by Polismyndigheten. BankID continues alongside — total identity layer now spans private bank + state police.",
+        "category": "identity",
+        "weight": 3,
+        "source": "Prop. 2025/26:150 — Polismyndigheten",
+        "lagrådet": false
+      }
+    ]
+  }
+}
