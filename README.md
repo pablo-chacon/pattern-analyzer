@@ -4,8 +4,6 @@ Systemic institutional pattern analysis tool. Determines whether documented even
 
 Built on the methodology developed for the Sweden OSINT Report 2026. Reusable on any country or institution.
 
----
-
 ## What It Does
 
 Users paste verified source material — official statistics, news reporting, government documents — and the tool applies a structured analytical framework to identify cross-sectoral patterns, gaps between official narrative and primary data, and institutional response patterns.
@@ -13,17 +11,7 @@ Users paste verified source material — official statistics, news reporting, go
 Output is always structured in three explicit layers:
 - **Layer 1** — Documented facts (sourced only)
 - **Layer 2** — Observed patterns across those facts
-- **Layer 3** — Probability assessment
-
-## Documentation
-
-- [Methodology & System Prompt](src/App.jsx) full analytical framework
-- [Reference Implementation — Sweden 2019–2026](docs/SWEDEN_REFERENCE_IMPLEMENTATION.md) — 
-  first application of this framework to a real dataset, covering 
-  Swedish institutional patterns across a full mandate period
-
-
----
+- **Layer 3** — Probability assessment (clearly labeled as such)
 
 ## How to Use
 
@@ -52,25 +40,6 @@ Each analysis costs approximately $0.01–0.05 depending on source volume.
 
 This tool has **no backend**. It is a static React application that calls the Anthropic API directly from your browser. No data is collected, stored, or transmitted anywhere except from your browser to Anthropic's API using your own key.
 
----
-
-## Start Analysis:
-- Go to: [Pattern-Analyzer App](https://pattern-analyzer-delta.vercel.app/)
-- Input Antrophic API-KEY.
-- Choose area of interest.
-- Input data to analyze.
-- Run Pattern Analysis
-- Read results
-
-## Disclaimer
-
-- Analysis is generated from the source material provided. 
-- All factual claims derive from that material.
-- Pattern assessments and probability estimates are analytical outputs, not documented facts.
-- Independent verification of all sources is recommended before any use of this analysis.
-
----
-
 ## Local Development
 
 ```bash
@@ -82,7 +51,7 @@ npm run dev
 
 1. Fork this repository
 2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-3. Click "New Project" -> select this repository
+3. Click "New Project" → select this repository
 4. Click Deploy — no configuration needed
 5. Done. Vercel gives you a public URL automatically.
 
@@ -92,13 +61,11 @@ Every push to main deploys automatically.
 
 1. Fork this repository
 2. Go to [netlify.com](https://netlify.com) and sign in with GitHub
-3. Click "Add new site" -> "Import an existing project"
+3. Click "Add new site" → "Import an existing project"
 4. Select this repository
 5. Build command: `npm run build`
 6. Publish directory: `dist`
 7. Click Deploy
-
----
 
 ## Methodology
 
@@ -116,21 +83,11 @@ The analytical framework encodes the following principles:
 
 **Three-layer output** — Facts, patterns, and probability assessments are always distinct and explicitly labeled.
 
----
-
 ## Background
 
 This tool was developed from the analytical methodology used in the Sweden: A Democracy Under Systemic Stress report (2025–2026), which applied this framework to Swedish institutional data between 2019 and 2026.
 
 The tool is designed to be country-agnostic and reusable by researchers, journalists, and analysts working on institutional integrity in any democratic context.
-
----
-
-## Contributing
-
-If you apply this framework to another country or institution and want to add it as a reference implementation, open a pull request with your dataset in the `docs/` directory.
-
----
 
 ## License
 
