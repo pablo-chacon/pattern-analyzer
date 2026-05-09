@@ -1,11 +1,9 @@
 # Sweden: A Democracy Under Systemic Stress
-
-
 ### A Multi-Disciplinary OSINT Study on Governance, Integrity, and Civil Rights
-**Status:** Final May 2026
+**Status:** Final 2026 
 **Original compilation:** Summer 2025  
 **Updated:** May 2026  
-**Author:** pablo-chacon 
+**Author:** Pablo Chacon
 
 ---
 
@@ -203,7 +201,7 @@ All entries below are verified through judicial proceedings, official investigat
 | SD communications (troll factory) | Political | 2024: Anonymous accounts manipulating public debate, documented by Kalla Fakta | No party consequences; Åkesson dismissed findings |
 | Linda Staaf (NOA, Europol Sweden) | Senior law enforcement | 2025–2026: Three relatives arrested in Operation Candy — serious narcotics and money laundering. Staaf left Europol Sweden post spring 2025 | Relatives remanded; Staaf no longer listed in police operational systems |
 | Katja Nyberg (SD riksdag, ex-police officer) | Legislator | Dec 2025: Arrested on drunk driving suspicion; Transportstyrelsen confirmed narcotics in system; subsequently drove with revoked license | Charged with aggravated unauthorized driving; rattfylleri case ongoing May 2026 |
-| Henrik Landerholm (National Security Adviser) | Senior state official | March 2023: Left classified documents in unlocked safe at Gällöfsta conference facility. Documents found by a cleaner from Georgia who subsequently received 15,000 SEK from a Russian citizen assessed by Säpo as belonging to the leadership tier of a violent Islamist extremist network — a man who had stood trial for terrorism-related offenses in Sweden (acquitted on a technicality). Documents included classified information from a meeting between Landerholm and US national security adviser Jake Sullivan concerning Sweden's NATO/Turkey strategy, drawn from security-classified material from both Säpo and Försvarsmakten. Must assessed the content as capable of causing danger to Sweden's security if exposed. The physical original documents have never been recovered. Regeringskansliet's security chief compiled an internal damage assessment in March 2023 describing the event as "very serious" — but did not register it in the official diary for 673 days, only doing so when media requested it. Säkerhetspolisen's investigation found that Regeringskansliet provided an incorrect account of the incident, including when the alarm was raised and what measures were taken. This was examined by riksdagens konstitutionsutskott in March 2026. | Acquitted in tingsrätt on technical negligence threshold (negligent but not grossly negligent). Prosecutors appealed. Hovrätten hearing scheduled after September 2026 election. 673-day diary concealment acknowledged by Regeringskansliet as an error. |
+| Henrik Landerholm (National Security Adviser) | Senior state official | 2023–2025: Left classified documents in unlocked safe at conference facility; found by cleaner with documented extremist connections per Säpo; documents included Sweden's NATO/Turkey strategy and a classified US meeting. Must assessed content as capable of causing danger to Sweden's security | Acquitted in tingsrätt on technical negligence threshold; prosecutors appealed; hovrätten hearing scheduled after September 2026 election |
 | Anna Kinberg Batra (M, Landshövding) | Senior state official | 2024: Hired personal friends to senior positions at Länsstyrelsen without proper process; one position advertised only by reception note with friend as sole applicant; second position never advertised | JO investigated; anti-corruption prosecutor declined charges; Kinberg Batra remains in post |
 | Arin Karapet (M → SD) | Riksdag member | Documented by Expressen to have socialized regularly with Jimmie Åkesson for at least one year before switching parties in March 2026; switched immediately after losing list position within M | Joined SD; no independent investigation of circumstances |
 | Marléne Lund Kopparklint (M → SD) | Riksdag member | March 2026: Left M for SD following loss of viable list position | Joined SD |
@@ -381,16 +379,13 @@ The kvittning system is a voluntary parliamentary convention in use since at lea
 
 SD was excluded from the kvittning system for its first decade in parliament. It was admitted in 2021 following an eight-party agreement. The system is not law. It is a trust-based convention.
 
-### 8.2 Three Documented Breaches — April 15, 16, and 29, 2026
+### 8.2 Three Documented Breaches
 
-**Breach 1 — April 15, 2026:**
-First documented breach of the kvittning convention. Source: DN, "Ilska kring SDs upprepade avsteg från kvittningen" (April 30, 2026).
+**Breach 1 — April 30, 2026:**
+During a vote on tightened citizenship requirements, two former SD members who had left the party (Elsa Widding and Katja Nyberg) voted with the opposition, threatening to defeat the proposal. SD called in Charlotte Quensel and Michael Rubbestad, who were "kvittad ut" under the convention and therefore obligated to abstain. They voted with the government bloc. The proposal passed 147–146. SD's group leader Linda Lindberg confirmed the breach publicly and refused to apologize.
 
-**Breach 2 — April 16, 2026:**
-Second breach within two consecutive days. Source: DN ibid.
-
-**Breach 3 — April 29, 2026:**
-During a vote on tightened citizenship requirements, two former SD members who had left the party (Elsa Widding and Katja Nyberg) voted with the opposition, threatening to defeat the proposal. SD called in Charlotte Quensel and Michael Rubbestad, who were "kvittad ut" under the convention and obligated to abstain. They voted with the government bloc. The proposal passed 147–146. SD's group leader Linda Lindberg confirmed the breach publicly and refused to apologize. This was the third breach in fifteen days.
+**Breaches 2 and 3:**
+Social Democrats have formally accused SD of repeating the same mechanism on at least two further occasions. Source: Expressen, S parliamentary group statement, April 2026.
 
 ### 8.3 Consequences
 
@@ -565,15 +560,13 @@ This is a probability assessment, not a prediction. The outcome is not structura
 - Must (Militära underrättelse- och säkerhetstjänsten) — Promemoria on Landerholm documents
 
 ### Primary News Sources
-- SVT Nyheter — Katja Nyberg rattfyllerismisstanke (January 8, 2026); Katja Nyberg grov olovlig körning (April 2026); Polisen: Så många är gängkriminella (November 7, 2025); M-ledamöter byter till SD (March 26, 2026); Rättegång mot Landerholm hålls efter valet (October 7, 2025); Efter glömda dokumenten — tog 673 dagar innan rapport registrerades (January 27, 2025); Säpo har förhört städerskan som hittade Landerholm-dokumenten (March 21, 2025); Uppgifter: Info om hemligt Nato-möte i Landerholms kvarglömda dokument (August 11, 2025); Kan utvecklas till Kristerssons värsta kris (May 26, 2025); JO utreder Kinberg Batras kompisrekryteringar (April 16, 2024); Finanspolitiska rådet: allvarligaste kritiken (February 13–16, 2026)
+- SVT Nyheter — Katja Nyberg rattfyllerismisstanke (January 8, 2026); Katja Nyberg grov olovlig körning (April 2026); Polisen: Så många är gängkriminella (November 7, 2025); M-ledamöter byter till SD (March 26, 2026); Rättegång mot Landerholm hålls efter valet (October 7, 2025); JO utreder Kinberg Batras kompisrekryteringar (April 16, 2024); Finanspolitiska rådet: allvarligaste kritiken (February 13–16, 2026)
 - Sveriges Radio / Ekot — Finanspolitiska rådet kritiserar regeringen (February 2026); Kvittningssystemet kris 2026; M-ledamöter Lund Kopparklint och Karapet går till SD (March 27, 2026)
 - Expressen — Linda Staaf anhöriga gripna (Operation Candy); SD kvittningskupp; S anklagar SD för nytt kvittningsfusk; Rekordstora knarkbeslag av tullen; Dubbla gängstraff trots Lagrådets kritik; Karapet socialiserade med Åkesson ett år innan partibytet
 - Aftonbladet — Katja Nyberg initial reporting (December 28, 2025); Anna Kinberg Batra kompisrekryteringar (March 2024)
 - Dagens Juridik — NOA polisläcka (2024)
-- Göteborgs-Posten — Linda Staaf tvingades lämna toppjobbet; Landerholm friande dom överklagas; Åklagare: Bevisningen mot Landerholm stärkt (March 2025)
-- TV4 Nyheterna — Kvittningskris riksdagen; Städerskan hittade handlingarna, fick pengar från rysk extremist (March 11, 2025)
-- DN — Ilska kring SDs upprepade avsteg från kvittningen (April 30, 2026); Landerholm-affären initial reporting; Säpo förhört städerskan (first to report); Info om hemligt Nato-möte i kvarglömda dokument
-- Morgontidningen — Erkänner fel i Landerholmfallet: "Tog för lång tid" (March 31, 2026)
+- Göteborgs-Posten — Linda Staaf tvingades lämna toppjobbet; Landerholm friande dom överklagas
+- TV4 Nyheterna — Kvittningskris riksdagen; Landerholm rättegång
 - Altinget — Regeringens skattepaket en jackpot för höginkomsttagare (September 2024)
 - NWT — Perspektiv på partibytare (March 28, 2026)
 - Kalla Fakta — SD troll factory investigation (2024)
@@ -597,12 +590,3 @@ This is a probability assessment, not a prediction. The outcome is not structura
 - Prop. 2025/26:218 — Dubbla straff för brott i kriminella nätverk och skärpta straffskalor
 - Skr. 2023/24:42 — Riksrevisionens rapport om förändrade inkomstskatteregler 2011–2023
 - Skr. 2024/25:120 — Riksrevisionens rapport om tillämpningen av det finanspolitiska ramverket 2024
-
----
-
-## Methodology & Tool
-
-The analytical framework used in this report is open source and reusable on any country or institution.
-
-- **Tool:** https://pattern-analyzer-delta.vercel.app  
-- **Source:** https://github.com/pablo-chacon/pattern-analyzer
