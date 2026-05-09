@@ -13,6 +13,8 @@ Output is always structured in three explicit layers:
 - **Layer 2** — Observed patterns across those facts
 - **Layer 3** — Probability assessment (clearly labeled as such)
 
+[Democratic Erosion Detection Tool](https://pattern-analyzer-delta.vercel.app/)
+
 ## How to Use
 
 1. Get a free Anthropic API key at [console.anthropic.com](https://console.anthropic.com)
