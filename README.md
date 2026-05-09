@@ -16,7 +16,7 @@ Output is always structured in three explicit layers:
 ## How to Use
 
 1. Get a free Anthropic API key at [console.anthropic.com](https://console.anthropic.com)
-2. Open the tool
+2. Open the [Democratic Erosion Tool](https://pattern-analyzer-delta.vercel.app/)
 3. Paste your API key (stored in memory only, never logged)
 4. Select country/institution and time period
 5. Choose analytical dimensions
@@ -24,6 +24,8 @@ Output is always structured in three explicit layers:
 7. Run analysis
 
 Each analysis costs approximately $0.01–0.05 depending on source volume.
+
+
 
 ## Analytical Dimensions
 
